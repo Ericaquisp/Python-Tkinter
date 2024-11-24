@@ -35,7 +35,7 @@ destinatario=tk.StringVar()
 opciones = ttk.Combobox(ventana,
     font= "consolas 10 bold",
     width=27,
-    values= ["fjcoronati@gmail.com","programacionsabattini@gmail.com","lafortaleza123@gmail.com", "mariaavalos7090@gmail.com", "danielprogramacion53@gmail.com"],
+    values= ["fjcoronati@gmail.com","programacionsabattini@gmail.com","lafortaleza123@gmail.com", "mariaavalos7090@gmail.com", "danielprogramacion53@gmail.com", "axela5746@gmail.com"],
     state="readonly",
     textvariable=destinatario)
 opciones.grid(row=3,column=1)
@@ -45,14 +45,14 @@ def mostrar():
         opciones = ttk.Combobox(ventana,
             font= "consolas 10 bold",
             width=27,
-            values= ["fjcoronati@gmail.com","programacionsabattini@gmail.com", "mariaavalos7090@gmail.com", "danielprogramacion53@gmail.com"],
+            values=  ["fjcoronati@gmail.com","programacionsabattini@gmail.com","lafortaleza123@gmail.com", "mariaavalos7090@gmail.com", "danielprogramacion53@gmail.com", "axela5746@gmail.com"],
             textvariable=destinatario)
         opciones.grid(row=3,column=1)
     else:
         opciones = ttk.Combobox(ventana,
             font= "consolas 10 bold",
             width=27,
-            values= ["fjcoronati@gmail.com", "programacionsabattini@gmail.com", "mariaavalos7090@gmail.com", "danielprogramacion53@gmail.com" ],
+            values=  ["fjcoronati@gmail.com","programacionsabattini@gmail.com","lafortaleza123@gmail.com", "mariaavalos7090@gmail.com", "danielprogramacion53@gmail.com", "axela5746@gmail.com"],
             state="readonly",
             textvariable=destinatario)
         opciones.grid(row=3,column=1)
@@ -87,7 +87,7 @@ def enviar_email():
     email.set_content(str(mensaje.get(1.0, 'end')))
     #Envio de email
     smtp = smtplib.SMTP_SSL("smtp.gmail.com")
-    smtp.login(remitente, "clave-personal")
+    smtp.login(remitente, "ynjn rqjf fssp bjmb")
     smtp.sendmail(remitente, destinatario.get(), email.as_string())
     messagebox.showinfo("MENSAJERIA","Mensaje enviado correctamente ")
     smtp.quit()
