@@ -24,4 +24,4 @@
 ![](ENVIAR_EMAIL/output/imagenes/Captura de pantalla 3 despues.png)
 
 ###Finalmente como quedo:
-![](ENVIAR EMAIL/output/imagenes/\Captura de pantalla 4  final .png)
+![](ENVIAR_EMAIL/output/imagenes/\Captura de pantalla 4  final .png)
