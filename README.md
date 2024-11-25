@@ -5,9 +5,9 @@
 ##Cambios 
 ###Primero cambie el nombre al titulo 
 ###Antes:
-![titulo](ENVIAR EMAIL/output/imagenes/Captura de pantalla1 antes.png)
+![](ENVIAR EMAIL/output/imagenes/Captura de pantalla1 antes.png)
 ###Despues:
-![titulo](ENVIAR EMAIL/output/imagenes/Captura de pantalla1 despues.png)
+![](ENVIAR EMAIL/output/imagenes/Captura de pantalla1 despues.png)
 
 ###Luego cambie el color a la etiqueta del correo personal y el gmail
 ###Antes:
